@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.container{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.search_wrapper{
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1.23em;
+}
+.search_wrapper button{
+  font-size: 1em;
+  background-color: rgb(24, 173, 232);
+}
+.search_wrapper input{
+  border-bottom: 2px solid blue !important;
+  outline: none;
+}
